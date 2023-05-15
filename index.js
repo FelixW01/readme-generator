@@ -1,7 +1,7 @@
 // TODO: Include packages needed for this application
 const fs = require('fs');
 const inquirer = require('inquirer');
-const generatorMarkdown = require('./util/generateMarkdown');
+const generatorMarkdown = require('./utils/generateMarkdown');
 // TODO: Create an array of questions for user input
 const questions = [{
     type: 'input',
@@ -29,9 +29,10 @@ const questions = [{
     name: 'usage',
 },
 {
-    type: 'input',
-    message: 'What liscence is being used?',
-    name: 'liscense',
+    type: 'list',
+    message: 'What licence is being used?',
+    choices: ['MIT', 'BSD 3-Clause', 'BSD 2-Clause', 'Apache', 'Mozilla', 'IBM'],
+    name: 'license',
 },
 {
     type: 'input',
@@ -45,8 +46,13 @@ const questions = [{
 },
 {
     type: 'input',
-    message: 'Contact information for inquiries.',
+    message: 'Contact information.',
     name: 'questions',
+},
+{
+    type: 'input',
+    message: 'What is your github username?',
+    name: 'username',
 },
 {
     type: 'input',
