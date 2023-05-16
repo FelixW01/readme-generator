@@ -27,10 +27,11 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
   return `
   # ${data.title}
-  https://github.com/${data.username}/${data.title}
+  https://github.com/${data.username}/${data.title} \r
+  ${renderLicenseSection(data.license)}
   # Description
   ${data.description}
-  #Table of Contents
+  # Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
   * [License](#license)
@@ -41,13 +42,14 @@ function generateMarkdown(data) {
   ${data.installation}
   # Usage
   ${data.usage}
+  #
   ${renderLicenseSection(data.license)}
   # Contributing
   ${data.contributing}
   # Tests
   ${data.tests}
   # Questions
-  If you have any questions about the app, please contact ${data.email}. 
+  If you have any questions about the app, please contact by github: ${data.username} or Email: ${data.email}. 
 `;
 }
 
