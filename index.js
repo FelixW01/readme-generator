@@ -31,7 +31,7 @@ const questions = [{
 {
     type: 'list',
     message: 'What licence is being used?',
-    choices: ['MIT', 'BSD 3-Clause', 'BSD 2-Clause', 'Apache', 'Mozilla', 'IBM'],
+    choices: ['MIT', 'BSD 3-Clause', 'BSD 2-Clause', 'Apache', 'Mozilla', 'IBM', 'None'],
     name: 'license',
 },
 {
