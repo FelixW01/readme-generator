@@ -1,9 +1,9 @@
-  # Professional Readme Generator
-  https://github.com/Felixw01/Readme Generator 
-  # License 
- ![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)
+
+  # Readme Generator Project
+  https://github.com/FelixW01/Readme Generator Project 
+  ![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)
   # Description
-  This project is a professional readme generator, I build this application to help users make a professioinal readme with simple inputs.
+  This project was built to help users create a professionally generated README.md based on a preset of inputs.
   # Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
@@ -12,15 +12,14 @@
   * [Tests](#tests)
   * [Questions](#questions)
   # Installation
-  Inquirer and FS
+  The dependencies required to run this app are Inquirer and FS.
   # Usage
-  This app is used through the terminal.
-  #
-  # License 
- ![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)
+  This app is ran from the terminal.
+  # License
+  ![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)
   # Contributing
-  Felix
+  Felix Willem
   # Tests
   node index.js
   # Questions
-  If you have any questions about the app, please contact Felixw01 by felixwillem01@yahoo.com. 
+  If you have any questions about the app, please contact by github: FelixW01 or Email: felixwillem01@yahoo.com. 

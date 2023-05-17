@@ -16,9 +16,9 @@ function renderLicenseLink(license) {
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
   if (license === 'None') {
-    return '# License \r None';
+    return 'None';
   } else {
-    return `# License \r ${renderLicenseLink(license)}`
+    return `${renderLicenseLink(license)}`
   }
     
 }
@@ -42,7 +42,7 @@ function generateMarkdown(data) {
   ${data.installation}
   # Usage
   ${data.usage}
-  #
+  # License
   ${renderLicenseSection(data.license)}
   # Contributing
   ${data.contributing}
